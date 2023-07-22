@@ -1,5 +1,5 @@
 import { useDispatch } from "react-redux";
-import { deleteTask, toggleCompleted } from "redux/actions";
+import { deleteTask, toggleCompleted } from "redux/tasksSlice";
 import { Button } from "components/Button/Button";
 import { CiTrash } from "react-icons/ci";
 
